@@ -1,0 +1,104 @@
+/* Colors and font */
+
+body {
+	background: #F4F9F9;
+	color: rgb(50, 50, 50);
+	font-size: 17px;
+}
+
+
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+	color: #F875AA;
+	font-weight: 800;
+	font-size: 32px;
+}
+
+h2 {
+	font-family: 'Raleway', sans-serif;
+	color: #FBACCC;
+	font-weight: 800;
+	font-size: 24px;
+}
+
+a {
+	color: #F875AA;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	color: grey;
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	font-family: Raleway;
+    color: rgb(95, 95, 95);
+    font-weight: lighter;
+}
+
+/* Custom design with class*/
+
+.container {
+	padding: 60px;
+	margin: 40px auto;	
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 475px;
+		padding: 30;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+		background-color: #F1D1D0;
+		padding: 50;
+	}
+}
+
+.card-white {
+	background: white;
+	padding: 60px;
+	margin: 50px;
+	box-shadow: 0px 5px 10px rgba(80,80,80,0.1);
+	border-radius: 4px;
+	text-align: center;
+}
+
+
+.img-circle {
+  	border-radius: 50%;
+}
+
+.btn-pink{
+	background-color: #F1D1D0;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 6px;
+}
+.btn-pink:hover {
+	background-color: grey;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+}
+.list-inline i:hover {
+	color: #F1D1D0;
+}
+
+/*Design adjustments using id*/
